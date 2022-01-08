@@ -1,0 +1,23 @@
+{
+  "name": "cron-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "axios": "^0.24.0",
+    "env-cmd": "^10.1.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
+}
